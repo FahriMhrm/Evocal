@@ -582,7 +582,7 @@
             // events
             markup += '<div class="calendar-events">'+
                             '<div class="event-header"><p></p></div>'+
-                            '<div class="event-list"></div>'+
+                            '<div class="event-list" data-bs-toggle="modal" data-bs-target="#exampleModal" id="del2"></div>'+
                         '</div>';
 
             // --- Finally, build it now! --- //
